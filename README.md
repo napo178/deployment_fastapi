@@ -29,31 +29,27 @@ j) fractal dimension ("coastline approximation" - 1)
 
 
 # Virtual Environment
-
-Firt we need to create a virtual environment for the project, to keep track of every dependency, it is also useful to use and explicit version of Python
-
-Install the package for creating a virtual environment:
 `$ pip install virtualenv`
 
-Create a new virtual environment
+Crear un nuevo ambiente virtual
 `$ virtualenv venv`
 
-Activate virtual environment
+Activar el ambiente virtual
+
 `$ source venv/bin/activate`
 
-# Python packages
+# Paquetes de Python
 
-Now with the virtual environment we can install the dependencies written in requirements.txt
 
 `$ pip install -r requirements.txt`
 
-# Train
+# Entreno
 
 Correr este ambiente para entrenar el modelo
 
 `$ python code/train.py`
 
-# Web application
+# Applicacion web
 
 Probar la aplicación de fastapi con:
 
