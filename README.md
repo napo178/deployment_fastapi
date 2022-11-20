@@ -2,8 +2,12 @@
 
 Deployment Machine Learning Models
 
+Como correr el sistema
+
 
 1. Clone the repository
+
+git clone (url del repositorio)
 
 2. Install poetry
 
